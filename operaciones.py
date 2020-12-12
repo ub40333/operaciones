@@ -36,25 +36,25 @@ inserta la opcion: """)
 		ub = float(input("inserte numero: "))
 		h = float(input("numero a sumar: "))
 		print (ub+h)
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #resta
 	elif opción == '2' :
 		ub = float(input("inserte numero: "))
 		h = float(input("numero a restar: "))
 		print (ub-h)
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #multiplicación
 	elif opción == '3' :
 		ub = float(input("inserte numero: "))
 		h = float(input("numero a multiplicar: "))
 		print (ub*h)
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #división
 	elif opción == '4' :
 		ub = float(input("inserte numero: "))
 		h = float(input("numero a dividir: "))
 		print (ub/h)
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #promedio
 	elif opción == '5' :
 #asignamos la cabtidad d numeros
@@ -69,7 +69,7 @@ inserta la opcion: """)
 		x = float(input('inserte numero: '))
 		y = float(input('inserte el valor de la potencia: '))
 		print (x**y)
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #operaciones
 	elif opción == '7' :
 #asignando variables
@@ -104,19 +104,19 @@ inserta la opcion: """)
 		g = (b*d)
 		print (g)
 		print ('')
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #raiz cuadrada
 	elif opción == '8' :
 		numero = float(input('inserte numero: '))
 		raiz = math.sqrt(numero)
 		print (raiz)
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #ecuaciones cuadraticas
 	elif opción == '9' :
 		print ('ejemplo de ecuación: a(x)²+b(x)+c')
 		print ('nota: para restar solo pon -')
 		print ('si la solucion no es real dara error')
-		os.system ('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system ('bash lector.sh')
 #asignamos variables
 		a= int(input('numero a: '))
 		b= int(input('numero b: '))
@@ -133,7 +133,7 @@ inserta la opcion: """)
 		print ('..........soluciones..........')
 		print ('solución x1: ',x1)
 		print ('solución x2: ',x2)
-		os.system('bash /data/data/com.termux/files/home/operaciones/script/lector.sh')
+		os.system('bash lector.sh')
 #salir
 	elif opción == '10' :
 		print ('bye')
