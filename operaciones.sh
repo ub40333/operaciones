@@ -7,7 +7,7 @@ echo creado por por:@ub4033
 echo -e "\e[1;33m"
 echo welcome
 echo -e "\e[1;31m"
-python /data/data/com.termux/files/home/operaciones/script/operaciones.py
+python operaciones.py
 echo -e "\e[1;33m"
 echo 'preciona enter para salir'
 read ENTER
